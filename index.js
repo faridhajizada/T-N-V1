@@ -3,10 +3,11 @@ const puppeteer = require("puppeteer");
 require("dotenv").config(); // Загрузка переменных окружения из .env
 
 // Токен вашего бота
-const token = process.env.TELEGRAM_BOT_TOKEN;
+const token = "7884587717:AAEkPU_xQRj20dZdCQQtf03eAkQekDEB_bM";
 const bot = new TelegramBot(token, { polling: true });
 
-const urlBase = "https://bina.az/baki/nizami/8-ci-kilometr/alqi-satqi/menziller";
+const urlBase =
+  "https://bina.az/baki/nizami/8-ci-kilometr/alqi-satqi/menziller";
 
 const maxPages = 0; // Установите количество страниц для скрейпинга
 
